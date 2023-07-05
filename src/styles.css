@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    background-color: #9681EB;
+}
+
+.game {
+    display: flex;
+  
+  
+}
+  
+.game-board {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+  
+.board-row {
+    display: flex;
+    flex-direction: row;
+}
+  
+.square {
+    width: 60px;
+    height: 60px;
+    margin-right: -1px;
+    margin-top: -1px;
+    border: 1px solid #999;
+    padding: 0;
+    text-align: center;
+    
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.square.x {
+    background-color: #6527BE !important; /* Change this to the color you want for 'X' */
+  }
+  
+  .square.o {
+    background-color: #19A7CE!important; /* Change this to the color you want for 'O' */
+  }
+  
+.status {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+  
+.game-info {
+    margin-right:30px;
+}
+  
