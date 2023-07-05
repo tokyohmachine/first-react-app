@@ -2,7 +2,8 @@
 
 ## A simple, yet fun, Tic Tac Toe game built with React.
 
-Preview: ()
+![Preview](https://github.com/tokyohmachine/first-react-app/blob/master/Image/image-React%20App.png)
+
 
 ## 🚀 Getting Started
 
